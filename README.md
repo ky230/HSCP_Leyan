@@ -35,7 +35,7 @@ Tell me if that helps
 # crab配置问题
 我目前只改动过：
 
-https://github.com/ky230/HSCP_Leyan/blob/5fd3d89721cf4b99bc09c33f5127c8a25a878d21/submitCrabJobsData_leyan.py#L64C1-L64C34
+[https://github.com/ky230/HSCP_Leyan/blob/5fd3d89721cf4b99bc09c33f5127c8a25a878d21/submitCrabJobsData_leyan.py#L64C1-L64C34](https://github.com/ky230/HSCP_Leyan/blob/ddf50132d3c2eedf1fcab8376bb0b2baf3ef6091/submitCrabJobsData_leyan.py#L64C1-L64C34)
 
 config.JobType.maxMemoryMB = 2500
 
