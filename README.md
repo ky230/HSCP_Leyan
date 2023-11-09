@@ -14,9 +14,9 @@ options.register('TYPE', 2,
 ) 
 ```
 Line 341
-
+```python
 process.HSCParticleAnalyzer.TypeMode = 2
-
+```
 
 # 更改了 Analyzer.cc 按照mattermost的建议
 Hi @Leyan Li  ! I have a branch of the HSCP framework on my side, and I did manage to get the TOF with @Caroline Collard advices (on data and on signal MC) : 
