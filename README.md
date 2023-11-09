@@ -5,13 +5,17 @@
 see 
 
 /Analyzer/test/Leyan/Data_ProducerAnalyzer_submit.py L46-50
+
+
 options.register('TYPE', 2,
     VarParsing.multiplicity.singleton,
     VarParsing.varType.int,
     "0:Tk only, 1:Tk+Muon, 2:Tk+TOF, 3:TOF onlypwd, 4:Q>1, 5:Q<1"
 ) 
 
-Line 341process.HSCParticleAnalyzer.TypeMode = 2
+Line 341
+
+process.HSCParticleAnalyzer.TypeMode = 2
 
 
 # 更改了 Analyzer/plugins/Analyzer.cc 按照mattermost的建议
