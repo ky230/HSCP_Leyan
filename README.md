@@ -36,9 +36,12 @@ Tell me if that helps
 我目前只改动过：
 
 https://github.com/ky230/HSCP_Leyan/blob/5fd3d89721cf4b99bc09c33f5127c8a25a878d21/submitCrabJobsData_leyan.py#L64C1-L64C34
+
 config.JobType.maxMemoryMB = 2500
 
+
 https://github.com/ky230/HSCP_Leyan/blob/5fd3d89721cf4b99bc09c33f5127c8a25a878d21/submitCrabJobsData_leyan.py#L70
+
 config.Data.unitsPerJob = 50
 
 
